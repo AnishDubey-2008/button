@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.btn-primary {
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #ffffff;
+	color: #345BE4;
+	border-radius: 5px;
+	cursor: pointer;
+	border: 1px solid #345BE4;
+	/* font-family: 'Itim', cursive; */
+	font-family: 'Fredoka One', cursive;
+	transition: .3s all ease;
+}
+
+.btn-primary:hover {
+	/*transform: translate(0, -10px);*/
+  /* transform: translate(10px, -5px); */
+	background-color: #345BE4;
+	color: white;
+	box-shadow: 0 0 11px rgba(33,33,33,.9); 
+}
